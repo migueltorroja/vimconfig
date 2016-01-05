@@ -1,3 +1,3 @@
-colorscheme solarized
+colorscheme ir_black 
 
-hi Normal guibg=Black 
+#hi Normal guibg=Black 
