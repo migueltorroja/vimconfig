@@ -31,3 +31,13 @@ if has("cscope")
 	nmap <Leader>cd :cs find d <C-R>=expand("<cword>")<CR><CR>
 
 endif
+
+augroup Identation
+    autocmd!
+    autocmd FileType c\|cpp\|python set tabstop=4
+    autocmd FileType c\|cpp\|python set expandtab
+    autocmd FileType c\|cpp\|python set shiftwidth=4
+augroup END
+
+set lcs=tab:>-,trail:-
+set list
