@@ -41,3 +41,6 @@ augroup END
 
 set lcs=tab:>-,trail:-
 set list
+
+nmap <Leader>cn :cnext<CR>
+nmap <Leader>cp :cprevious<CR>
